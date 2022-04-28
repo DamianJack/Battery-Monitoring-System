@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="bundle.js"></script>	
+        <title>Battery Monitoring System</title>
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+            .chart {
+            float: left;
+            width: 50%;
+            padding-top: 25vh;
+            padding-right: 10px;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div class="alignRow">
+            <div class="chart">
+                <div class="column" id="voltc" style="width: 100%;height:50vh;"></div> 
+            </div>
+            <div class="chart">
+                <div id="percentc" class="column" style="width: 100%;height:50vh;"></div> 
+            </div>
+        </div>
+    </body>
+</html>
