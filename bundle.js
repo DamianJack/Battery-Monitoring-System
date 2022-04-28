@@ -46257,8 +46257,8 @@ function _setExports(ndebug) {
 
 module.exports = _setExports(process.env.NODE_NDEBUG);
 
-}).call(this)}).call(this,{"isBuffer":require("../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")},require('_process'))
-},{"../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"_process":188,"assert":17,"stream":213,"util":254}],308:[function(require,module,exports){
+}).call(this)}).call(this,{"isBuffer":require("../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")},require('_process'))
+},{"../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"_process":188,"assert":17,"stream":213,"util":254}],308:[function(require,module,exports){
 
 /*!
  *  Copyright 2010 LearnBoost <dev@learnboost.com>
@@ -53566,8 +53566,8 @@ CombinedStream.prototype._emitError = function(err) {
   this.emit('error', err);
 };
 
-}).call(this)}).call(this,{"isBuffer":require("../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
-},{"../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"delayed-stream":316,"stream":213,"util":254}],315:[function(require,module,exports){
+}).call(this)}).call(this,{"isBuffer":require("../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
+},{"../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"delayed-stream":316,"stream":213,"util":254}],315:[function(require,module,exports){
 (function (Buffer){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -53677,8 +53677,8 @@ function objectToString(o) {
   return Object.prototype.toString.call(o);
 }
 
-}).call(this)}).call(this,{"isBuffer":require("../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
-},{"../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155}],316:[function(require,module,exports){
+}).call(this)}).call(this,{"isBuffer":require("../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
+},{"../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155}],316:[function(require,module,exports){
 var Stream = require('stream').Stream;
 var util = require('util');
 
@@ -57265,8 +57265,8 @@ module.exports = {
 
 };
 
-}).call(this)}).call(this,{"isBuffer":require("../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
-},{"../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"./utils":352,"assert-plus":307,"crypto":82,"http":228,"jsprim":360,"sshpk":423,"util":254}],352:[function(require,module,exports){
+}).call(this)}).call(this,{"isBuffer":require("../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
+},{"../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"./utils":352,"assert-plus":307,"crypto":82,"http":228,"jsprim":360,"sshpk":423,"util":254}],352:[function(require,module,exports){
 // Copyright 2012 Joyent, Inc.  All rights reserved.
 
 var assert = require('assert-plus');
@@ -88158,8 +88158,8 @@ Key._oldVersionDetect = function (obj) {
 	return ([1, 0]);
 };
 
-}).call(this)}).call(this,{"isBuffer":require("../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
-},{"../../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"./algs":404,"./dhe":406,"./ed-compat":407,"./errors":408,"./fingerprint":409,"./formats/auto":410,"./formats/dnssec":411,"./formats/pem":413,"./formats/pkcs1":414,"./formats/pkcs8":415,"./formats/putty":416,"./formats/rfc4253":417,"./formats/ssh":419,"./formats/ssh-private":418,"./private-key":425,"./signature":426,"./utils":428,"assert-plus":307,"crypto":82}],425:[function(require,module,exports){
+}).call(this)}).call(this,{"isBuffer":require("../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js")})
+},{"../../../../../AppData/Roaming/npm/node_modules/browserify/node_modules/is-buffer/index.js":155,"./algs":404,"./dhe":406,"./ed-compat":407,"./errors":408,"./fingerprint":409,"./formats/auto":410,"./formats/dnssec":411,"./formats/pem":413,"./formats/pkcs1":414,"./formats/pkcs8":415,"./formats/putty":416,"./formats/rfc4253":417,"./formats/ssh":419,"./formats/ssh-private":418,"./private-key":425,"./signature":426,"./utils":428,"assert-plus":307,"crypto":82}],425:[function(require,module,exports){
 // Copyright 2017 Joyent, Inc.
 
 module.exports = PrivateKey;
@@ -95940,7 +95940,7 @@ var Highcharts = require('highcharts');
                       var x = (new Date()).getTime(), // current time
                           y = parseFloat(parseBody.last_value);
                       series.addPoint([x, y], true, true);
-                  })}, 1000);
+                  })}, 5000);
               }
           }
       },
@@ -96052,7 +96052,7 @@ var Highcharts = require('highcharts');
                       var x = (new Date()).getTime(), // current time
                           y = parseFloat(parseBody.last_value);
                       series.addPoint([x, y], true, true);
-                  })}, 1000);
+                  })}, 5000);
               }
           }
       },

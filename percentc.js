@@ -33,7 +33,7 @@ var Highcharts = require('highcharts');
                       var x = (new Date()).getTime(), // current time
                           y = parseFloat(parseBody.last_value);
                       series.addPoint([x, y], true, true);
-                  })}, 1000);
+                  })}, 5000);
               }
           }
       },
