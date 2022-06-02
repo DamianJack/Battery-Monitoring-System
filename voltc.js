@@ -38,6 +38,8 @@ var Highcharts = require('highcharts');
           }
       },
   
+    //   CONTRIBUTERS : Kavees and Damian
+
       time: {
           useUTC: false
       },
